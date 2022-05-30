@@ -5,8 +5,6 @@ ttocyobitnA (or Antiboycott) is a drop-in PCB for [Ttocyobitna](https://trashman
 The original was made by [Trash Man](https://trashman.club/) while under the alias of Pycki47.
 The open sourced files for it can be found [here](https://github.com/evangs/ttocyobitna).
 
----
-
 ## Status
 
 **Currently Untested.** ***Order at your own risk.***
@@ -14,8 +12,6 @@ The open sourced files for it can be found [here](https://github.com/evangs/ttoc
 Note: JLCPCB may not have a preview show since they struggle to render hatched fills. It was able to render with a solid fill though so it should be fine.
 
 Dimensions: 266.67mm x 76.17mm
-
----
 
 ## Changes
 
@@ -43,8 +39,6 @@ Dimensions: 266.67mm x 76.17mm
   - 6.25u Spacebar bottom row
 
 ![KLE](Images/ttocyobltnA-layouts.png)
-
----
 
 ## Renders
 
