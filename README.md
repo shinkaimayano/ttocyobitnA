@@ -22,6 +22,7 @@ Dimensions: 266.67mm x 76.17mm
   - Tray mount holes are now included in the schematic
 - Revamped PCBNew
   - Rerouted with curved traces and hatched GND fill
+  - Capacitors and resistors have been changed to 0402
   - Replaced 1u for a 10u capacitor on the VBUS Pin
   - Replaced TVS diode array with a SRV05-4 ESD IC
   - Switched USB-C footprint to the more common HRO-M-12
