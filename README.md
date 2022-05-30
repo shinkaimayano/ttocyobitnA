@@ -15,29 +15,36 @@ Dimensions: 266.67mm x 76.17mm
 
 ## Changes
 
-- Revamped Eeschema
+- General Cleanup
   - Makes use of more default KiCad 6 libraries
     - Only external libraries used are [marbastlib](https://github.com/ebastler/marbastlib) and [ai03's Switch Symbol](https://github.com/ai03-2725/MX_Alps_Hybrid)
+  - Organized files and folders
+    - Removed old libraries and footprints
+- Redone Eeschema
+  - Switched to a USB-C 2.0 symbol
   - Tray mount holes are now included in the schematic
+  - More clear labeling of the switch matrix
 - Revamped PCBNew
   - Rerouted with curved traces and hatched GND fill
-  - Capacitors and resistors have been changed to 0402
-  - Replaced 1uF for a 10uF capacitor on the VBUS Pin
-  - Replaced TVS diode array with a SRV05-4 ESD IC
-  - Switched USB-C footprint to the more common HRO-M-12
+  - Capacitors and resistors have been changed to a smaller footprint (0605 &rarr; 0402)
+  - Replaced the 1uF capacitor for a 10uF on the VBUS Pin
+    - This is recommended by the 32U4 datasheet (Section 21.5)
+  - Replaced the TVS diodes with a SRV05-4
+  - Switched the USB-C footprint to the more common HRO-M-12
   - Added an extra 100nF decoupling capacitor
-  - Added ISP breakout
-    - Also acts as an RGB strip breakout
-    - Removed reset button
+  - Added a 1k&Omega; resistor to the crystal to protect it from being over-driven
+  - Added an ISP breakout
+    - Also acts as an RGB strip breakout (top pads)
+    - Removed reset button as a result
   - Proper shield implementation (4.7nF capacitor, 1M&Omega; resistor, and a screw hole connected to Earth)
 - More layout options (see KLE below)
-  - Added silkscreen text to clearly demarcate mod size and layout options
+  - Added silkscreen text to explicitly show mod size and layout options
   - Rotary encoder support in the top right as well as 1u/1.5u
   - Stepped caps-lock support
     - Supports 3.0mm THT LED indicator
-  - Full 2.75u right shift
-  - 6.25u Spacebar bottom row
-
+  - Full right shift support (2.75u)
+  - 6.25u Spacebar bottom rows
+  
 ![KLE](Images/ttocyobltnA-layouts.png)
 
 ## Renders
