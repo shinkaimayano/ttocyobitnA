@@ -1,6 +1,6 @@
 # ttocyobitnA
 
-> ttocyobitnA (or Antiboycott) is an updated version of [Ttocyobitna](https://trashman.wiki/en/keyboards/ttocyobitna) made by [Trash Man](https://trashman.club/) while under the alias of Pycki47.
+ttocyobitnA (or Antiboycott) is a drop-in replacement of [Ttocyobitna](https://trashman.wiki/en/keyboards/ttocyobitna) made by [Trash Man](https://trashman.club/) while under the alias of Pycki47.
 
 ---
 
