@@ -25,7 +25,7 @@ Dimensions: 266.67mm x 76.17mm
   - Tray mount holes are now included in the schematic
   - More clear labeling of the switch matrix
 - Revamped PCBNew
-  - Rerouted with curved traces and hatched GND fill
+  - Rerouted with curved traces and changed to a hatched GND fill
   - Capacitors and resistors have been changed to a smaller footprint (0605 &rarr; 0402)
   - Replaced the 1uF capacitor for a 10uF on the VBUS Pin
     - This is recommended by the 32U4 datasheet (Section 21.5)
