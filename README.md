@@ -37,7 +37,7 @@ Dimensions: 266.67mm x 76.17mm
     - Also acts as an RGB strip breakout (top pads)
     - Removed reset button as a result
   - Proper shield implementation (4.7nF capacitor, 1M&Omega; resistor, and a screw hole connected to Earth)
-- More layout options (see KLE below)
+- More layout options (see [KLE](http://www.keyboard-layout-editor.com/#/gists/c1b2365e78564452fc1ebb7e3b01f5bb))
   - Added silkscreen text to explicitly show mod size and layout options
   - Rotary encoder support in the top right as well as 1u/1.5u
   - Stepped caps-lock support
