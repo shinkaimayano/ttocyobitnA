@@ -27,11 +27,11 @@ Dimensions: 266.67mm x 76.17mm
 - Revamped PCBNew
   - Rerouted with curved traces and changed to a hatched GND fill
   - Capacitors and resistors have been changed to a smaller footprint (0605 &rarr; 0402)
-  - Replaced the 1uF capacitor for a 10uF on the VBUS Pin
+  - Replaced the 1uF capacitor for a 10uF on the VBUS line
     - This is recommended by the 32U4 datasheet (Section 21.5)
   - Replaced the TVS diodes with a SRV05-4
   - Switched the USB-C footprint to the more common HRO-M-12
-  - Added an extra 100nF decoupling capacitor
+  - Added two extra 100nF decoupling capacitors
   - Added a 1k&Omega; resistor to the crystal to protect it from being over-driven
   - Added an ISP breakout
     - Also acts as an RGB strip breakout (top pads)
