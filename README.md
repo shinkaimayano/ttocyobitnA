@@ -13,7 +13,7 @@ Note: JLCPCB may not have a preview show since they struggle to render hatched f
 
 Dimensions: 266.67mm x 76.17mm
 
-Firmware can be found [here](https://github.com/shinkaimayano/Firmwares).
+Firmware can be found ([here](https://github.com/shinkaimayano/Firmwares)).
 
 ## Changes
 
